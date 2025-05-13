@@ -8,7 +8,7 @@ class Problema4_Visitante {
         this.nombre = nombre;
         this.edad = edad;
         this.altura = altura;
-        this.accesoPermitido = false; // se verifica después
+        this.accesoPermitido = false;
     }
 
     public void verificarAcceso() {

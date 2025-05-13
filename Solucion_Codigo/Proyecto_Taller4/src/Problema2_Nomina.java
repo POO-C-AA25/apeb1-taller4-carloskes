@@ -1,7 +1,7 @@
 class Problema2_Nomina{
-    private String nombre;
-    private double salario;
-    private int edad;
+    public String nombre;
+    public double salario;
+    public int edad;
 
     public Problema2_Nomina(String nombre, double salario, int edad) {
         this.nombre = nombre;

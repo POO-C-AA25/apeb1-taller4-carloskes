@@ -16,11 +16,11 @@ class Problema5_Persona {
     public void calcularCalorias() {
         double factor = 0;
         if (tipoEjercicio == 1) {
-            factor = 0.08; // Cardio
+            factor = 0.08;
         } else if (tipoEjercicio == 2) {
-            factor = 0.06; // Pesas
+            factor = 0.06;
         } else if (tipoEjercicio == 3) {
-            factor = 0.09; // Crossfit
+            factor = 0.09;
         }
         calorias = peso * duracion * factor;
     }

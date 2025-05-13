@@ -9,7 +9,7 @@ class Problema4_Parque {
 
     public void registrarVisitante(Problema4_Visitante visitante) {
         if (contador < visitantes.length) {
-            visitante.verificarAcceso(); // Validar acceso al registrar
+            visitante.verificarAcceso();
             visitantes[contador] = visitante;
             contador++;
         }

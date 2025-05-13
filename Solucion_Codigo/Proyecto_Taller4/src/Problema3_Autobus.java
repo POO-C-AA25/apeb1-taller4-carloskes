@@ -3,10 +3,10 @@ public class Problema3_Autobus {
     public String grado;
     public boolean permisoVigente;
 
-    public Problema3_Autobus(String nombre, String grado, int permiso) {
+    public Problema3_Autobus(String nombre, String grado, int permisoVigente) {
         this.nombre = nombre;
         this.grado = grado;
-        this.permisoVigente = (permiso == 1);
+        this.permisoVigente = (permisoVigente == 1);
     }
 
     public boolean tienePermiso() {

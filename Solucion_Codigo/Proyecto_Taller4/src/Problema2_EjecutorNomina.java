@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Problema2_EjecutorNomina {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -28,7 +30,7 @@ public class Problema2_EjecutorNomina {
                     if (contador >= capacidad) {
                         System.out.println("Capacidad llena, no se puede agregar más.");
                     } else {
-  
+
                         System.out.print("Nombre: ");
                         String nombre = sc.nextLine();
                         System.out.print("Salario: ");
@@ -48,8 +50,10 @@ public class Problema2_EjecutorNomina {
                     } else {
                         System.out.println("\n--- Empleados Registrados ---");
                         for (int i = 0; i < contador; i++) {
-                            System.out.println(empleados[i] + "\n");
+                            empleados[i].mostrarInformacion();
+                            System.out.println(); 
                         }
+
                     }
                     break;
 
@@ -79,7 +83,7 @@ public class Problema2_EjecutorNomina {
                     break;
 
                 case 4:
-                    System.out.println("Saliendo del programa. ¡Hasta luego!");
+                    System.out.println("Saliendo del programa.");
                     break;
 
                 default:

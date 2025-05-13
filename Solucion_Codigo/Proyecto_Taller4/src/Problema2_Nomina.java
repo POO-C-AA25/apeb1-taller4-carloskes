@@ -16,6 +16,13 @@ class Problema2_Nomina{
     public void aplicarAumento(double porcentaje) {
         salario += salario * (porcentaje / 100);
     }
+    
+    public void mostrarInformacion() {
+    System.out.println("Nombre: " + nombre);
+    System.out.println("Edad: " + edad);
+    System.out.println("Salario: $" + String.format("%.2f", salario));
+}
+
 
     @Override
     public String toString() {
